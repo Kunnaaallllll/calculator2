@@ -22,6 +22,7 @@ public class main {
         return (double) num1 / num2;
     }
 
+
     // Main method to test the functions
     public static void main(String[] args) {
         int number1 = 5;
@@ -42,5 +43,6 @@ public class main {
         // Testing divide function
         double divisionResult = divide(number1, number2);
         System.out.println("The division of " + number1 + " by " + number2 + " is: " + divisionResult);
+
     }
 }
