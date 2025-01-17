@@ -12,6 +12,11 @@ public class main {
         return num1 - num2;
     }
 
+    // Function to multiply two numbers
+    public static int multiply(int num1, int num2) {
+        return num1 * num2;
+    }
+
     // Main method to test the functions
     public static void main(String[] args) {
         int number1 = 5;
@@ -24,6 +29,9 @@ public class main {
         // Testing subtract function
         int subtractionResult = subtract(number1, number2);
         System.out.println("The difference between " + number1 + " and " + number2 + " is: " + subtractionResult);
+
+        // Testing multiply function
+        int multiplicationResult = multiply(number1, number2);
+        System.out.println("The product of " + number1 + " and " + number2 + " is: " + multiplicationResult);
     }
 }
-
